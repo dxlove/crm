@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//ibatis.apache.org//DTD Config 3.0//EN"
+        "http://ibatis.apache.org/dtd/ibatis-3-config.dtd">
+<configuration>
+	
+	<mappers>
+		<mapper resource="sqlmap-config/sqlmap-sysuser.xml" />
+		<mapper resource="sqlmap-config/sqlmap-role.xml" />
+		<mapper resource="sqlmap-config/sqlmap-permission.xml" />
+		<mapper resource="sqlmap-config/sqlmap-organ.xml" />
+		<mapper resource="sqlmap-config/sqlmap-borrowAttr.xml" />
+		<mapper resource="sqlmap-config/sqlmap-borrow.xml" />
+		<mapper resource="sqlmap-config/sqlmap-borrowParent.xml" />
+		<mapper resource="sqlmap-config/sqlmap-auditFlow.xml" />
+		<mapper resource="sqlmap-config/sqlmap-borrowAudit.xml" />
+		<mapper resource="sqlmap-config/sqlmap-consumeBorrowDetail.xml" />
+	</mappers>
+</configuration>	
